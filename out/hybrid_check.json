@@ -1,0 +1,18 @@
+{
+ "MAE_mae_seed0": 0.08049514872308507,
+ "MAE_mae_seed0_repeat": 0.08049514872308507,
+ "MAE_hybrid_arm": 0.0948896182203774,
+ "MAE_hybrid_x86": 0.08378387915734833,
+ "MAE_mae_seed1": 0.07389315327062806,
+ "maxdiff_repeat": 0.0,
+ "maxdiff_hybrid_arm": 0.30699216873960644,
+ "maxdiff_hybrid_x86": 0.11949766024183539,
+ "maxdiff_seed1": 0.45597175463010675,
+ "meandiff_hybrid_arm": 0.04091139923907082,
+ "meandiff_seed1": 0.050979478947481595,
+ "epochs": [
+  40,
+  31,
+  40
+ ]
+}

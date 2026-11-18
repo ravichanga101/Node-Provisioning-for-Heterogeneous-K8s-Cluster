@@ -1,0 +1,337 @@
+{
+ "v2_cost_vs_reactive": 21.08579006720919,
+ "v2_cost_vs_threshold": -20.628148836655356,
+ "v2_uns_red": 83.00541867712205,
+ "thr_uns_red": 87.04761011370738,
+ "short": {
+  "Reactive (Karpenter)": 2.2788926049795615,
+  "Threshold (70%, arch-agnostic)": 0.2926421404682274,
+  "Proposed v2": 0.35470085470085466,
+  "v2 w/o quantile (point+eta)": 0.3049052396878484,
+  "v2 w/o portability": 0.31902638424377555,
+  "v2 w/o burst margin": 0.600334448160535,
+  "Oracle (perfect forecast)": 0.020810107766629483
+ },
+ "uns": {
+  "Reactive (Karpenter)": 24.183102812875234,
+  "Threshold (70%, arch-agnostic)": 8.380337459819323,
+  "Proposed v2": 6.192313803417814,
+  "v2 w/o quantile (point+eta)": 5.127826058298314,
+  "v2 w/o portability": 6.593216502316516,
+  "v2 w/o burst margin": 8.252887434830145,
+  "Oracle (perfect forecast)": 0.0647644403887322
+ },
+ "cost_rel": {
+  "Reactive (Karpenter)": 0.0,
+  "Threshold (70%, arch-agnostic)": 53.36980152049955,
+  "Proposed v2": 21.08579006720919,
+  "v2 w/o quantile (point+eta)": 45.53989624585506,
+  "v2 w/o portability": 26.89705248596155,
+  "v2 w/o burst margin": 12.336954716562975,
+  "Oracle (perfect forecast)": 14.158803435831269
+ },
+ "port_saving": 5.4981156195775815,
+ "tau": {
+  "cost": {
+   "tau=0.5": 29.832677993311037,
+   "tau=0.8": 31.77524923076923,
+   "tau=0.9": 33.50743134894091,
+   "tau=0.95": 38.13879081382385,
+   "tau=0.99": 43.48050996655518
+  },
+  "cost_rel": {
+   "tau=0.5": 1.0584326137757765,
+   "tau=0.8": 1.1349463629614887,
+   "tau=0.9": 1.2098414116096996,
+   "tau=0.95": 1.4473517739851534,
+   "tau=0.99": 1.6889408263262384
+  },
+  "short": {
+   "tau=0.5": 1.1107395020438497,
+   "tau=0.8": 0.5555555555555556,
+   "tau=0.9": 0.356001486436269,
+   "tau=0.95": 0.06503158677071717,
+   "tau=0.99": 0.013749535488665912
+  },
+  "uns": {
+   "tau=0.5": 14.486953185405273,
+   "tau=0.8": 9.315339034321187,
+   "tau=0.9": 6.110043180299702,
+   "tau=0.95": 0.864396742936756,
+   "tau=0.99": 0.18668617494409628
+  },
+  "slo": {
+   "tau=0.5": 0.05276848755109624,
+   "tau=0.8": 0.04645113340765514,
+   "tau=0.9": 0.03232998885172798,
+   "tau=0.95": 0.00074321813452248,
+   "tau=0.99": 0.00037160906726124
+  }
+ },
+ "horizon": {
+  "cost": {
+   "H=5min": 32.405146042363434,
+   "H=10min": 32.89715977703455,
+   "H=15min": 33.50743134894091,
+   "H=30min": 36.551265997770344
+  },
+  "cost_rel": {
+   "H=5min": 1.1654739839247699,
+   "H=10min": 1.1852644972438893,
+   "H=15min": 1.2098414116096996,
+   "H=30min": 1.3802209077297725
+  },
+  "short": {
+   "H=5min": 0.44778892604979553,
+   "H=10min": 0.41062801932367143,
+   "H=15min": 0.356001486436269,
+   "H=30min": 0.13192121887774058
+  },
+  "uns": {
+   "H=5min": 7.933418455307194,
+   "H=10min": 7.526468552262202,
+   "H=15min": 6.110043180299702,
+   "H=30min": 1.5557023299835455
+  }
+ },
+ "kappa": {
+  "cfg_kappa": {
+   "0": 0.8,
+   "1": 0.8,
+   "2": 0.8,
+   "3": 1.0,
+   "4": 1.0,
+   "5": 1.0,
+   "6": 1.25,
+   "7": 1.25,
+   "8": 1.25,
+   "9": 1.5,
+   "10": 1.5,
+   "11": 1.5
+  },
+  "strategy": {
+   "0": "Proposed v2",
+   "1": "Reactive (Karpenter)",
+   "2": "v2 w/o portability",
+   "3": "Proposed v2",
+   "4": "Reactive (Karpenter)",
+   "5": "v2 w/o portability",
+   "6": "Proposed v2",
+   "7": "Reactive (Karpenter)",
+   "8": "v2 w/o portability",
+   "9": "Proposed v2",
+   "10": "Reactive (Karpenter)",
+   "11": "v2 w/o portability"
+  },
+  "cost": {
+   "0": 31.5734325083612,
+   "1": 26.680995496098102,
+   "2": 34.19242862876255,
+   "3": 33.50743134894091,
+   "4": 28.33074069119286,
+   "5": 35.464788227424755,
+   "6": 36.118334180602005,
+   "7": 30.222299041248608,
+   "8": 36.4799880490524,
+   "9": 36.694388940914166,
+   "10": 30.56493110367893,
+   "11": 38.09027656633222
+  },
+  "arm": {
+   "0": 0.5936293059242694,
+   "1": 0.5559257437416402,
+   "2": 0.4224960372690026,
+   "3": 0.6174052937456935,
+   "4": 0.5807537603565393,
+   "5": 0.44171157202308975,
+   "6": 0.644897869174348,
+   "7": 0.606232104787284,
+   "8": 0.45912595579491977,
+   "9": 0.28424233131146537,
+   "10": 0.3118715849082218,
+   "11": 0.48202263196109346
+  },
+  "uns": {
+   "0": 5.360614781496385,
+   "1": 19.164829897468866,
+   "2": 6.2734237320838755,
+   "3": 6.110043180299702,
+   "4": 24.24856134012351,
+   "5": 6.463908258583957,
+   "6": 7.7323949973536985,
+   "7": 29.961879447594587,
+   "8": 6.589741894952959,
+   "9": 6.662523598362416,
+   "10": 27.47123636279499,
+   "11": 5.820546196605637
+  }
+ },
+ "scale": {
+  "cost": {
+   "Reactive (Karpenter)": 283.05837175771063,
+   "Threshold (70%, arch-agnostic)": 464.45441872909714,
+   "Proposed v2": 330.98187082868816
+  },
+  "cost_rel": {
+   "Reactive (Karpenter)": 1.0,
+   "Threshold (70%, arch-agnostic)": 1.637577835259812,
+   "Proposed v2": 1.1841370798355246
+  },
+  "short": {
+   "Reactive (Karpenter)": 6.880961228787315,
+   "Threshold (70%, arch-agnostic)": 0.09290226681531027,
+   "Proposed v2": 0.6224451876625788
+  },
+  "uns": {
+   "Reactive (Karpenter)": 564.2668051239004,
+   "Threshold (70%, arch-agnostic)": 46.68166354716715,
+   "Proposed v2": 106.36006552817678
+  },
+  "slo": {
+   "Reactive (Karpenter)": 0.10466988727858294,
+   "Threshold (70%, arch-agnostic)": 0.048309178743961345,
+   "Proposed v2": 0.06750898055245881
+  },
+  "alloc": {
+   "Reactive (Karpenter)": 70.87933975595351,
+   "Threshold (70%, arch-agnostic)": 44.9141783225933,
+   "Proposed v2": 60.199293705544946
+  },
+  "launch": {
+   "Reactive (Karpenter)": 287.25083612040135,
+   "Threshold (70%, arch-agnostic)": 134.2251950947603,
+   "Proposed v2": 182.93868450390187
+  },
+  "uns_red": {
+   "Reactive (Karpenter)": 0.0,
+   "Threshold (70%, arch-agnostic)": 95.39775764793177,
+   "Proposed v2": 86.66087252504927
+  }
+ },
+ "boot": [
+  {
+   "strategy": "Proposed v2",
+   "cfg_boot_median": 60,
+   "shortfall_pct": 0.356001486436269,
+   "unserved_vcpu_min": 6.110043180299702,
+   "cost_per_day": 33.50743134894091
+  },
+  {
+   "strategy": "Proposed v2",
+   "cfg_boot_median": 180,
+   "shortfall_pct": 0.7097733184689706,
+   "unserved_vcpu_min": 23.76111731559377,
+   "cost_per_day": 33.51239527313266
+  },
+  {
+   "strategy": "Proposed v2",
+   "cfg_boot_median": 420,
+   "shortfall_pct": 1.2809364548494984,
+   "unserved_vcpu_min": 59.4762484673441,
+   "cost_per_day": 33.55412923076923
+  },
+  {
+   "strategy": "Proposed v2",
+   "cfg_boot_median": 600,
+   "shortfall_pct": 1.6800445930880712,
+   "unserved_vcpu_min": 83.89872300635167,
+   "cost_per_day": 33.59993257525083
+  },
+  {
+   "strategy": "Reactive (Karpenter)",
+   "cfg_boot_median": 60,
+   "shortfall_pct": 2.2824228911185434,
+   "unserved_vcpu_min": 24.24856134012351,
+   "cost_per_day": 28.33074069119286
+  },
+  {
+   "strategy": "Reactive (Karpenter)",
+   "cfg_boot_median": 180,
+   "shortfall_pct": 4.44890375325158,
+   "unserved_vcpu_min": 89.29886753798469,
+   "cost_per_day": 28.40525110367893
+  },
+  {
+   "strategy": "Reactive (Karpenter)",
+   "cfg_boot_median": 420,
+   "shortfall_pct": 7.638424377554812,
+   "unserved_vcpu_min": 230.50067931300924,
+   "cost_per_day": 28.55389591973244
+  },
+  {
+   "strategy": "Reactive (Karpenter)",
+   "cfg_boot_median": 600,
+   "shortfall_pct": 9.554069119286511,
+   "unserved_vcpu_min": 341.2796497134489,
+   "cost_per_day": 28.658493110367893
+  },
+  {
+   "strategy": "Threshold (70%, arch-agnostic)",
+   "cfg_boot_median": 60,
+   "shortfall_pct": 0.29505759940542553,
+   "unserved_vcpu_min": 8.203466563883294,
+   "cost_per_day": 43.931214269788185
+  },
+  {
+   "strategy": "Threshold (70%, arch-agnostic)",
+   "cfg_boot_median": 180,
+   "shortfall_pct": 0.5574136008918618,
+   "unserved_vcpu_min": 20.671301673367182,
+   "cost_per_day": 43.964084726867334
+  },
+  {
+   "strategy": "Threshold (70%, arch-agnostic)",
+   "cfg_boot_median": 420,
+   "shortfall_pct": 0.9858788554440727,
+   "unserved_vcpu_min": 53.53470704129953,
+   "cost_per_day": 43.935705150501676
+  },
+  {
+   "strategy": "Threshold (70%, arch-agnostic)",
+   "cfg_boot_median": 600,
+   "shortfall_pct": 1.3262727610553697,
+   "unserved_vcpu_min": 78.66895429334352,
+   "cost_per_day": 43.953671705685615
+  }
+ ],
+ "bootH": [
+  {
+   "cfg_boot_median": 420,
+   "shortfall_pct": 0.459308807134894,
+   "unserved_vcpu_min": 12.869550697998905,
+   "cost_per_day": 36.60623304347826
+  },
+  {
+   "cfg_boot_median": 600,
+   "shortfall_pct": 0.5741360089186176,
+   "unserved_vcpu_min": 18.7269265391924,
+   "cost_per_day": 36.6661154960981
+  }
+ ],
+ "overhead": {
+  "inference_ms_median": 14.073786999915683,
+  "inference_ms_p95": 16.194056849985817,
+  "planner_us_median": 4.723999836642179,
+  "params_per_model": 33982,
+  "tf": "2.21.0",
+  "cpu": 2
+ },
+ "hybrid": {
+  "MAE_mae_seed0": 0.08049514872308507,
+  "MAE_mae_seed0_repeat": 0.08049514872308507,
+  "MAE_hybrid_arm": 0.0948896182203774,
+  "MAE_hybrid_x86": 0.08378387915734833,
+  "MAE_mae_seed1": 0.07389315327062806,
+  "maxdiff_repeat": 0.0,
+  "maxdiff_hybrid_arm": 0.30699216873960644,
+  "maxdiff_hybrid_x86": 0.11949766024183539,
+  "maxdiff_seed1": 0.45597175463010675,
+  "meandiff_hybrid_arm": 0.04091139923907082,
+  "meandiff_seed1": 0.050979478947481595,
+  "epochs": [
+   40,
+   31,
+   40
+  ]
+ }
+}

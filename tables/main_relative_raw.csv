@@ -1,0 +1,631 @@
+scenario,strategy,seed,cost_rel,unserved_red
+T1-CloudWatch-A,Reactive (Karpenter),0,0.0,0.0
+T1-CloudWatch-A,Reactive (Karpenter),1,0.0,0.0
+T1-CloudWatch-A,Reactive (Karpenter),2,0.0,0.0
+T1-CloudWatch-A,Reactive (Karpenter),3,0.0,0.0
+T1-CloudWatch-A,Reactive (Karpenter),4,0.0,0.0
+T1-CloudWatch-A,Reactive (Karpenter),5,0.0,0.0
+T1-CloudWatch-A,Reactive (Karpenter),6,0.0,0.0
+T1-CloudWatch-A,Reactive (Karpenter),7,0.0,0.0
+T1-CloudWatch-A,Reactive (Karpenter),8,0.0,0.0
+T1-CloudWatch-A,Reactive (Karpenter),9,0.0,0.0
+T1-CloudWatch-A,"Threshold (70%, arch-agnostic)",0,66.16302186878731,100.0
+T1-CloudWatch-A,"Threshold (70%, arch-agnostic)",1,67.29907351962123,100.0
+T1-CloudWatch-A,"Threshold (70%, arch-agnostic)",2,66.10433843920414,100.0
+T1-CloudWatch-A,"Threshold (70%, arch-agnostic)",3,67.62917250211578,100.0
+T1-CloudWatch-A,"Threshold (70%, arch-agnostic)",4,66.14514117668958,100.0
+T1-CloudWatch-A,"Threshold (70%, arch-agnostic)",5,66.38294383555008,100.0
+T1-CloudWatch-A,"Threshold (70%, arch-agnostic)",6,66.65675591300344,100.0
+T1-CloudWatch-A,"Threshold (70%, arch-agnostic)",7,67.00721962302512,100.0
+T1-CloudWatch-A,"Threshold (70%, arch-agnostic)",8,67.23820410236874,100.0
+T1-CloudWatch-A,"Threshold (70%, arch-agnostic)",9,66.44799862835507,100.0
+T1-CloudWatch-A,Proposed v2,0,6.8913621077274945,77.55804585305293
+T1-CloudWatch-A,Proposed v2,1,7.476930973306506,58.857924896216396
+T1-CloudWatch-A,Proposed v2,2,7.202814122726986,62.17111567299618
+T1-CloudWatch-A,Proposed v2,3,7.779184110602677,17.700006355044984
+T1-CloudWatch-A,Proposed v2,4,7.137938094440388,74.29546702877207
+T1-CloudWatch-A,Proposed v2,5,7.40598575671636,82.36563800820898
+T1-CloudWatch-A,Proposed v2,6,7.368769233056338,82.28330026024669
+T1-CloudWatch-A,Proposed v2,7,7.571262014020763,78.6539025514401
+T1-CloudWatch-A,Proposed v2,8,7.652624776334593,52.59930557277717
+T1-CloudWatch-A,Proposed v2,9,7.340536954277277,80.52079121285745
+T1-CloudWatch-A,v2 w/o quantile (point+eta),0,49.53233867821112,94.9373572505377
+T1-CloudWatch-A,v2 w/o quantile (point+eta),1,49.80975724056875,90.54430233197922
+T1-CloudWatch-A,v2 w/o quantile (point+eta),2,50.104785125351256,93.55754860363622
+T1-CloudWatch-A,v2 w/o quantile (point+eta),3,50.72272192805738,100.0
+T1-CloudWatch-A,v2 w/o quantile (point+eta),4,50.03219982504143,92.83144591810688
+T1-CloudWatch-A,v2 w/o quantile (point+eta),5,50.01248430145675,89.59174944335955
+T1-CloudWatch-A,v2 w/o quantile (point+eta),6,50.12524714941948,96.41231522203688
+T1-CloudWatch-A,v2 w/o quantile (point+eta),7,50.404702470815124,95.66592254006795
+T1-CloudWatch-A,v2 w/o quantile (point+eta),8,50.840683005913355,90.81771700530619
+T1-CloudWatch-A,v2 w/o quantile (point+eta),9,50.040068433156534,84.18404591045578
+T1-CloudWatch-A,v2 w/o portability,0,17.420337786365934,94.62687625349915
+T1-CloudWatch-A,v2 w/o portability,1,17.799506819356825,100.0
+T1-CloudWatch-A,v2 w/o portability,2,17.822405032663923,100.0
+T1-CloudWatch-A,v2 w/o portability,3,18.325681717756524,99.16865741099653
+T1-CloudWatch-A,v2 w/o portability,4,17.77467567517266,100.0
+T1-CloudWatch-A,v2 w/o portability,5,17.8980163003984,100.0
+T1-CloudWatch-A,v2 w/o portability,6,17.91220063329717,100.0
+T1-CloudWatch-A,v2 w/o portability,7,18.11632113122379,96.4733560797012
+T1-CloudWatch-A,v2 w/o portability,8,18.350834332589994,100.0
+T1-CloudWatch-A,v2 w/o portability,9,17.888412209131154,100.0
+T1-CloudWatch-A,v2 w/o burst margin,0,3.9222608275580217,49.99216866195803
+T1-CloudWatch-A,v2 w/o burst margin,1,4.218814506800772,49.680365855748654
+T1-CloudWatch-A,v2 w/o burst margin,2,4.127007761171764,55.06449875169777
+T1-CloudWatch-A,v2 w/o burst margin,3,4.783071081386758,4.655468344765168
+T1-CloudWatch-A,v2 w/o burst margin,4,4.247771139278234,58.22069356569174
+T1-CloudWatch-A,v2 w/o burst margin,5,4.310251661157438,71.11884662782995
+T1-CloudWatch-A,v2 w/o burst margin,6,4.009767047735169,69.78163873544548
+T1-CloudWatch-A,v2 w/o burst margin,7,4.578780586239417,66.53848539987108
+T1-CloudWatch-A,v2 w/o burst margin,8,4.477043246332646,21.479702897850174
+T1-CloudWatch-A,v2 w/o burst margin,9,4.23830840393451,77.3439327421676
+T1-CloudWatch-A,Oracle (perfect forecast),0,7.216514000111451,95.48281570190137
+T1-CloudWatch-A,Oracle (perfect forecast),1,8.260961739447348,93.8750486415309
+T1-CloudWatch-A,Oracle (perfect forecast),2,7.747398983788956,96.11804438844851
+T1-CloudWatch-A,Oracle (perfect forecast),3,8.003490035424576,98.05186600261413
+T1-CloudWatch-A,Oracle (perfect forecast),4,7.623355110093577,96.53652828379697
+T1-CloudWatch-A,Oracle (perfect forecast),5,8.285849510130872,97.21899200225016
+T1-CloudWatch-A,Oracle (perfect forecast),6,8.2510740779282,96.92685971295559
+T1-CloudWatch-A,Oracle (perfect forecast),7,8.3530141552443,92.31362342844243
+T1-CloudWatch-A,Oracle (perfect forecast),8,8.485276373837735,97.81871317514043
+T1-CloudWatch-A,Oracle (perfect forecast),9,7.8414855511365955,96.24755319172756
+T2-CloudWatch-B,Reactive (Karpenter),0,0.0,0.0
+T2-CloudWatch-B,Reactive (Karpenter),1,0.0,0.0
+T2-CloudWatch-B,Reactive (Karpenter),2,0.0,0.0
+T2-CloudWatch-B,Reactive (Karpenter),3,0.0,0.0
+T2-CloudWatch-B,Reactive (Karpenter),4,0.0,0.0
+T2-CloudWatch-B,Reactive (Karpenter),5,0.0,0.0
+T2-CloudWatch-B,Reactive (Karpenter),6,0.0,0.0
+T2-CloudWatch-B,Reactive (Karpenter),7,0.0,0.0
+T2-CloudWatch-B,Reactive (Karpenter),8,0.0,0.0
+T2-CloudWatch-B,Reactive (Karpenter),9,0.0,0.0
+T2-CloudWatch-B,"Threshold (70%, arch-agnostic)",0,52.365901409411045,100.0
+T2-CloudWatch-B,"Threshold (70%, arch-agnostic)",1,53.22030434126705,100.0
+T2-CloudWatch-B,"Threshold (70%, arch-agnostic)",2,53.11803683846927,100.0
+T2-CloudWatch-B,"Threshold (70%, arch-agnostic)",3,53.23892548233622,100.0
+T2-CloudWatch-B,"Threshold (70%, arch-agnostic)",4,50.990190454894524,100.0
+T2-CloudWatch-B,"Threshold (70%, arch-agnostic)",5,53.04895533123706,100.0
+T2-CloudWatch-B,"Threshold (70%, arch-agnostic)",6,54.04958999819725,100.0
+T2-CloudWatch-B,"Threshold (70%, arch-agnostic)",7,52.89053608427932,100.0
+T2-CloudWatch-B,"Threshold (70%, arch-agnostic)",8,52.44040696967191,100.0
+T2-CloudWatch-B,"Threshold (70%, arch-agnostic)",9,53.45430663326112,100.0
+T2-CloudWatch-B,Proposed v2,0,27.66419589546787,79.24466021773517
+T2-CloudWatch-B,Proposed v2,1,27.784888049714574,85.91056804276886
+T2-CloudWatch-B,Proposed v2,2,27.623986844793812,78.23328362553849
+T2-CloudWatch-B,Proposed v2,3,27.33579163464064,87.56879247554362
+T2-CloudWatch-B,Proposed v2,4,27.402560787096863,70.69241038507784
+T2-CloudWatch-B,Proposed v2,5,27.53707006740893,81.18424930079425
+T2-CloudWatch-B,Proposed v2,6,28.12276179942792,73.93364971159461
+T2-CloudWatch-B,Proposed v2,7,27.575607241174648,78.33057348076039
+T2-CloudWatch-B,Proposed v2,8,27.83149003255172,75.10495080136673
+T2-CloudWatch-B,Proposed v2,9,27.746345260392545,73.11947709682467
+T2-CloudWatch-B,v2 w/o quantile (point+eta),0,44.45440112207424,98.51593818770111
+T2-CloudWatch-B,v2 w/o quantile (point+eta),1,45.15920250324823,98.50330050706665
+T2-CloudWatch-B,v2 w/o quantile (point+eta),2,44.93787278759982,98.94344601087153
+T2-CloudWatch-B,v2 w/o quantile (point+eta),3,44.675572333407956,99.29829306908044
+T2-CloudWatch-B,v2 w/o quantile (point+eta),4,44.0865651036856,99.55983610976477
+T2-CloudWatch-B,v2 w/o quantile (point+eta),5,44.58176799070757,98.5387199732418
+T2-CloudWatch-B,v2 w/o quantile (point+eta),6,45.39156024809614,95.55538934685964
+T2-CloudWatch-B,v2 w/o quantile (point+eta),7,44.756373965233756,97.17951038491958
+T2-CloudWatch-B,v2 w/o quantile (point+eta),8,44.943289914801035,97.96045405934814
+T2-CloudWatch-B,v2 w/o quantile (point+eta),9,44.80990489163483,96.77697256720884
+T2-CloudWatch-B,v2 w/o portability,0,36.89013996707806,85.08286449819606
+T2-CloudWatch-B,v2 w/o portability,1,36.74042424802799,89.15657864250795
+T2-CloudWatch-B,v2 w/o portability,2,36.945987759431034,86.34366674152496
+T2-CloudWatch-B,v2 w/o portability,3,36.71641645829491,92.94899878123618
+T2-CloudWatch-B,v2 w/o portability,4,36.69537911121061,86.86077373268736
+T2-CloudWatch-B,v2 w/o portability,5,36.75319184094019,87.20266102447727
+T2-CloudWatch-B,v2 w/o portability,6,37.472167138465196,84.53920515573952
+T2-CloudWatch-B,v2 w/o portability,7,36.51472261942983,82.01961984029852
+T2-CloudWatch-B,v2 w/o portability,8,36.51876468842303,80.81921066618469
+T2-CloudWatch-B,v2 w/o portability,9,36.845126608450364,86.97232574427787
+T2-CloudWatch-B,v2 w/o burst margin,0,21.52833919370383,70.26191326210045
+T2-CloudWatch-B,v2 w/o burst margin,1,21.470804358299223,78.62323459465973
+T2-CloudWatch-B,v2 w/o burst margin,2,21.377696476701004,68.28962547896948
+T2-CloudWatch-B,v2 w/o burst margin,3,21.336628365164678,83.22899275064721
+T2-CloudWatch-B,v2 w/o burst margin,4,21.273782556703758,71.37342651418098
+T2-CloudWatch-B,v2 w/o burst margin,5,21.253991319942212,76.47930451692918
+T2-CloudWatch-B,v2 w/o burst margin,6,21.552501181526253,69.4839730757828
+T2-CloudWatch-B,v2 w/o burst margin,7,21.344150348731937,66.52875476298439
+T2-CloudWatch-B,v2 w/o burst margin,8,21.391696144881898,67.1952295189607
+T2-CloudWatch-B,v2 w/o burst margin,9,21.39573350198234,69.85325317918394
+T2-CloudWatch-B,Oracle (perfect forecast),0,7.871078340654725,99.80179851215613
+T2-CloudWatch-B,Oracle (perfect forecast),1,8.098086066191978,99.81259155704365
+T2-CloudWatch-B,Oracle (perfect forecast),2,7.8970157531647045,99.96748563594734
+T2-CloudWatch-B,Oracle (perfect forecast),3,7.612301884589523,99.76150455914244
+T2-CloudWatch-B,Oracle (perfect forecast),4,7.605071019550991,99.96275848874726
+T2-CloudWatch-B,Oracle (perfect forecast),5,7.836352237326172,99.89017446797473
+T2-CloudWatch-B,Oracle (perfect forecast),6,8.167391823350822,99.9641778015241
+T2-CloudWatch-B,Oracle (perfect forecast),7,7.696423186544843,99.82273888080209
+T2-CloudWatch-B,Oracle (perfect forecast),8,7.794413168612091,99.91788244674098
+T2-CloudWatch-B,Oracle (perfect forecast),9,7.7327236019556045,99.78305848004237
+T3-Diurnal-Taxi,Reactive (Karpenter),0,0.0,0.0
+T3-Diurnal-Taxi,Reactive (Karpenter),1,0.0,0.0
+T3-Diurnal-Taxi,Reactive (Karpenter),2,0.0,0.0
+T3-Diurnal-Taxi,Reactive (Karpenter),3,0.0,0.0
+T3-Diurnal-Taxi,Reactive (Karpenter),4,0.0,0.0
+T3-Diurnal-Taxi,Reactive (Karpenter),5,0.0,0.0
+T3-Diurnal-Taxi,Reactive (Karpenter),6,0.0,0.0
+T3-Diurnal-Taxi,Reactive (Karpenter),7,0.0,0.0
+T3-Diurnal-Taxi,Reactive (Karpenter),8,0.0,0.0
+T3-Diurnal-Taxi,Reactive (Karpenter),9,0.0,0.0
+T3-Diurnal-Taxi,"Threshold (70%, arch-agnostic)",0,55.99627584826692,100.0
+T3-Diurnal-Taxi,"Threshold (70%, arch-agnostic)",1,56.77697278245546,99.46392657047898
+T3-Diurnal-Taxi,"Threshold (70%, arch-agnostic)",2,55.7429142757782,100.0
+T3-Diurnal-Taxi,"Threshold (70%, arch-agnostic)",3,56.50117690917218,100.0
+T3-Diurnal-Taxi,"Threshold (70%, arch-agnostic)",4,56.801648411235206,100.0
+T3-Diurnal-Taxi,"Threshold (70%, arch-agnostic)",5,55.983462747754764,100.0
+T3-Diurnal-Taxi,"Threshold (70%, arch-agnostic)",6,55.71493674182424,100.0
+T3-Diurnal-Taxi,"Threshold (70%, arch-agnostic)",7,56.23277594295604,100.0
+T3-Diurnal-Taxi,"Threshold (70%, arch-agnostic)",8,55.63596328997698,100.0
+T3-Diurnal-Taxi,"Threshold (70%, arch-agnostic)",9,55.592581358062155,100.0
+T3-Diurnal-Taxi,Proposed v2,0,9.990820140003764,100.0
+T3-Diurnal-Taxi,Proposed v2,1,10.236494571720689,97.74702314553157
+T3-Diurnal-Taxi,Proposed v2,2,10.400365153886337,100.0
+T3-Diurnal-Taxi,Proposed v2,3,9.797172817082767,99.39629959478083
+T3-Diurnal-Taxi,Proposed v2,4,9.980696236850672,100.0
+T3-Diurnal-Taxi,Proposed v2,5,10.07174249135787,100.0
+T3-Diurnal-Taxi,Proposed v2,6,10.496734011848762,100.0
+T3-Diurnal-Taxi,Proposed v2,7,9.865071890772859,98.02466821949207
+T3-Diurnal-Taxi,Proposed v2,8,10.273671568008824,100.0
+T3-Diurnal-Taxi,Proposed v2,9,9.836633877887092,97.42207166173979
+T3-Diurnal-Taxi,v2 w/o quantile (point+eta),0,47.35198019586602,100.0
+T3-Diurnal-Taxi,v2 w/o quantile (point+eta),1,47.97554554750558,100.0
+T3-Diurnal-Taxi,v2 w/o quantile (point+eta),2,47.90036515388636,100.0
+T3-Diurnal-Taxi,v2 w/o quantile (point+eta),3,47.0507913251174,100.0
+T3-Diurnal-Taxi,v2 w/o quantile (point+eta),4,47.35928858041425,100.0
+T3-Diurnal-Taxi,v2 w/o quantile (point+eta),5,47.3500442962113,100.0
+T3-Diurnal-Taxi,v2 w/o quantile (point+eta),6,47.987239860246156,100.0
+T3-Diurnal-Taxi,v2 w/o quantile (point+eta),7,47.03214578658874,100.0
+T3-Diurnal-Taxi,v2 w/o quantile (point+eta),8,47.880122366743414,100.0
+T3-Diurnal-Taxi,v2 w/o quantile (point+eta),9,47.159509468301785,100.0
+T3-Diurnal-Taxi,v2 w/o portability,0,14.591191685048166,99.81127785272163
+T3-Diurnal-Taxi,v2 w/o portability,1,14.915910623762585,100.0
+T3-Diurnal-Taxi,v2 w/o portability,2,15.029560076508508,86.71388640976228
+T3-Diurnal-Taxi,v2 w/o portability,3,14.291968841167124,98.91234693991436
+T3-Diurnal-Taxi,v2 w/o portability,4,14.4548313631927,89.71591274166974
+T3-Diurnal-Taxi,v2 w/o portability,5,14.735438706203198,95.22775486890795
+T3-Diurnal-Taxi,v2 w/o portability,6,15.25531129966804,89.61024873710075
+T3-Diurnal-Taxi,v2 w/o portability,7,14.538731615014377,98.88917720081706
+T3-Diurnal-Taxi,v2 w/o portability,8,14.920735767033232,99.13964672608425
+T3-Diurnal-Taxi,v2 w/o portability,9,14.386618711270982,99.21477410152112
+T3-Diurnal-Taxi,v2 w/o burst margin,0,2.135731408608188,50.72544067228261
+T3-Diurnal-Taxi,v2 w/o burst margin,1,2.057742096904014,49.72090837647403
+T3-Diurnal-Taxi,v2 w/o burst margin,2,2.2330898974091795,55.134159444624146
+T3-Diurnal-Taxi,v2 w/o burst margin,3,2.0620835843928376,52.41826145483988
+T3-Diurnal-Taxi,v2 w/o burst margin,4,1.917796334453925,42.01012654567769
+T3-Diurnal-Taxi,v2 w/o burst margin,5,2.1149269546789418,49.038909486873465
+T3-Diurnal-Taxi,v2 w/o burst margin,6,2.228684273344772,40.60860213367224
+T3-Diurnal-Taxi,v2 w/o burst margin,7,1.9811734275385184,57.20742827628514
+T3-Diurnal-Taxi,v2 w/o burst margin,8,2.255864856984968,66.3316624065631
+T3-Diurnal-Taxi,v2 w/o burst margin,9,1.8754604151319576,37.87522470239901
+T3-Diurnal-Taxi,Oracle (perfect forecast),0,7.780692709624959,100.0
+T3-Diurnal-Taxi,Oracle (perfect forecast),1,8.08476383177772,95.78994950488564
+T3-Diurnal-Taxi,Oracle (perfect forecast),2,8.218570683359472,97.36639911768388
+T3-Diurnal-Taxi,Oracle (perfect forecast),3,7.691307344520104,97.63896474537094
+T3-Diurnal-Taxi,Oracle (perfect forecast),4,7.805227198785358,88.85998963748956
+T3-Diurnal-Taxi,Oracle (perfect forecast),5,7.847377837997449,95.22775486890795
+T3-Diurnal-Taxi,Oracle (perfect forecast),6,8.295826913478477,97.65417218374769
+T3-Diurnal-Taxi,Oracle (perfect forecast),7,7.763248690429148,97.14993542581199
+T3-Diurnal-Taxi,Oracle (perfect forecast),8,8.07350707786303,99.13964672608424
+T3-Diurnal-Taxi,Oracle (perfect forecast),9,7.579841400528697,97.17616568149437
+S1-Constant,Reactive (Karpenter),0,0.0,0.0
+S1-Constant,Reactive (Karpenter),1,0.0,0.0
+S1-Constant,Reactive (Karpenter),2,0.0,0.0
+S1-Constant,Reactive (Karpenter),3,0.0,0.0
+S1-Constant,Reactive (Karpenter),4,0.0,0.0
+S1-Constant,Reactive (Karpenter),5,0.0,0.0
+S1-Constant,Reactive (Karpenter),6,0.0,0.0
+S1-Constant,Reactive (Karpenter),7,0.0,0.0
+S1-Constant,Reactive (Karpenter),8,0.0,0.0
+S1-Constant,Reactive (Karpenter),9,0.0,0.0
+S1-Constant,"Threshold (70%, arch-agnostic)",0,55.60551674450318,100.0
+S1-Constant,"Threshold (70%, arch-agnostic)",1,55.93514000933928,100.0
+S1-Constant,"Threshold (70%, arch-agnostic)",2,56.108522882981646,100.0
+S1-Constant,"Threshold (70%, arch-agnostic)",3,56.38420964176285,100.0
+S1-Constant,"Threshold (70%, arch-agnostic)",4,55.92965860322454,100.0
+S1-Constant,"Threshold (70%, arch-agnostic)",5,56.614704807253744,100.0
+S1-Constant,"Threshold (70%, arch-agnostic)",6,55.89905017205159,100.0
+S1-Constant,"Threshold (70%, arch-agnostic)",7,56.626880456845385,100.0
+S1-Constant,"Threshold (70%, arch-agnostic)",8,56.24691389899208,100.0
+S1-Constant,"Threshold (70%, arch-agnostic)",9,56.39502392097195,100.0
+S1-Constant,Proposed v2,0,7.726401379186143,100.0
+S1-Constant,Proposed v2,1,7.862744150846179,100.0
+S1-Constant,Proposed v2,2,7.999935518191914,93.66707509737321
+S1-Constant,Proposed v2,3,8.250054944344631,100.0
+S1-Constant,Proposed v2,4,7.933383166007246,99.57207423464367
+S1-Constant,Proposed v2,5,8.34354994711084,100.0
+S1-Constant,Proposed v2,6,7.9343497480443,98.80742713233607
+S1-Constant,Proposed v2,7,8.426324291601528,100.0
+S1-Constant,Proposed v2,8,8.091797183862237,100.0
+S1-Constant,Proposed v2,9,8.195153782291742,100.0
+S1-Constant,v2 w/o quantile (point+eta),0,41.67374271488673,100.0
+S1-Constant,v2 w/o quantile (point+eta),1,40.62927716857476,100.0
+S1-Constant,v2 w/o quantile (point+eta),2,43.109312785130506,100.0
+S1-Constant,v2 w/o quantile (point+eta),3,42.57249421468372,100.0
+S1-Constant,v2 w/o quantile (point+eta),4,42.143943396955954,100.0
+S1-Constant,v2 w/o quantile (point+eta),5,42.097193153844415,100.0
+S1-Constant,v2 w/o quantile (point+eta),6,43.38439034448989,100.0
+S1-Constant,v2 w/o quantile (point+eta),7,42.31906015195808,100.0
+S1-Constant,v2 w/o quantile (point+eta),8,41.05700371461669,100.0
+S1-Constant,v2 w/o quantile (point+eta),9,41.7571980966595,100.0
+S1-Constant,v2 w/o portability,0,20.787821477736166,100.0
+S1-Constant,v2 w/o portability,1,21.069513550070027,100.0
+S1-Constant,v2 w/o portability,2,21.225476762368412,93.66707509737321
+S1-Constant,v2 w/o portability,3,21.50424687463641,100.0
+S1-Constant,v2 w/o portability,4,21.1252948075213,100.0
+S1-Constant,v2 w/o portability,5,21.596250206219246,100.0
+S1-Constant,v2 w/o portability,6,21.144626448262095,98.80742713233607
+S1-Constant,v2 w/o portability,7,21.676200465521323,100.0
+S1-Constant,v2 w/o portability,8,21.326611953255824,100.0
+S1-Constant,v2 w/o portability,9,21.44262358630451,100.0
+S1-Constant,v2 w/o burst margin,0,0.1871936392759288,100.0
+S1-Constant,v2 w/o burst margin,1,0.31399449301965365,100.0
+S1-Constant,v2 w/o burst margin,2,0.44266761239983854,93.66707509737321
+S1-Constant,v2 w/o burst margin,3,0.6741994285788255,100.0
+S1-Constant,v2 w/o burst margin,4,0.3811555166058911,99.57207423464367
+S1-Constant,v2 w/o burst margin,5,0.7611512048056213,100.0
+S1-Constant,v2 w/o burst margin,6,0.382122098642923,98.80742713233607
+S1-Constant,v2 w/o burst margin,7,0.8381326055920901,100.0
+S1-Constant,v2 w/o burst margin,8,0.5270173015293977,100.0
+S1-Constant,v2 w/o burst margin,9,0.623140511886211,100.0
+S1-Constant,Oracle (perfect forecast),0,7.777863548059227,100.0
+S1-Constant,Oracle (perfect forecast),1,8.004444229747353,100.0
+S1-Constant,Oracle (perfect forecast),2,8.100527138780954,100.0
+S1-Constant,Oracle (perfect forecast),3,8.31469534976923,100.0
+S1-Constant,Oracle (perfect forecast),4,8.0606498008841,99.57207423464367
+S1-Constant,Oracle (perfect forecast),5,8.472942417116025,100.0
+S1-Constant,Oracle (perfect forecast),6,8.054205920637191,100.0
+S1-Constant,Oracle (perfect forecast),7,8.504019087021387,100.0
+S1-Constant,Oracle (perfect forecast),8,8.220888990727948,100.0
+S1-Constant,Oracle (perfect forecast),9,8.311447501461755,100.0
+S2-Step,Reactive (Karpenter),0,0.0,0.0
+S2-Step,Reactive (Karpenter),1,0.0,0.0
+S2-Step,Reactive (Karpenter),2,0.0,0.0
+S2-Step,Reactive (Karpenter),3,0.0,0.0
+S2-Step,Reactive (Karpenter),4,0.0,0.0
+S2-Step,Reactive (Karpenter),5,0.0,0.0
+S2-Step,Reactive (Karpenter),6,0.0,0.0
+S2-Step,Reactive (Karpenter),7,0.0,0.0
+S2-Step,Reactive (Karpenter),8,0.0,0.0
+S2-Step,Reactive (Karpenter),9,0.0,0.0
+S2-Step,"Threshold (70%, arch-agnostic)",0,57.29009872158215,100.0
+S2-Step,"Threshold (70%, arch-agnostic)",1,59.800370049763906,100.0
+S2-Step,"Threshold (70%, arch-agnostic)",2,57.5240587747869,100.0
+S2-Step,"Threshold (70%, arch-agnostic)",3,57.144435216286716,100.0
+S2-Step,"Threshold (70%, arch-agnostic)",4,56.91730799113459,100.0
+S2-Step,"Threshold (70%, arch-agnostic)",5,58.321491607048536,100.0
+S2-Step,"Threshold (70%, arch-agnostic)",6,57.236707712672484,100.0
+S2-Step,"Threshold (70%, arch-agnostic)",7,57.13306602205519,100.0
+S2-Step,"Threshold (70%, arch-agnostic)",8,56.850617874805124,100.0
+S2-Step,"Threshold (70%, arch-agnostic)",9,57.33751119801362,100.0
+S2-Step,Proposed v2,0,11.058293720290212,79.9979376590771
+S2-Step,Proposed v2,1,12.821690987934375,83.32618112741903
+S2-Step,Proposed v2,2,13.021273453716065,84.39069130086031
+S2-Step,Proposed v2,3,11.368908563503144,87.75655380222854
+S2-Step,Proposed v2,4,11.297669968022351,77.24824437302458
+S2-Step,Proposed v2,5,11.986420577166434,87.25532880609444
+S2-Step,Proposed v2,6,13.901849113030407,92.88598766099142
+S2-Step,Proposed v2,7,11.609982721896394,78.54968295547135
+S2-Step,Proposed v2,8,12.84386031652527,63.25613713623062
+S2-Step,Proposed v2,9,11.689294494463343,89.88050734694268
+S2-Step,v2 w/o quantile (point+eta),0,52.41964260080305,100.0
+S2-Step,v2 w/o quantile (point+eta),1,53.284704473007324,100.0
+S2-Step,v2 w/o quantile (point+eta),2,53.22342459122644,100.0
+S2-Step,v2 w/o quantile (point+eta),3,52.42757373548101,100.0
+S2-Step,v2 w/o quantile (point+eta),4,52.56229911754844,100.0
+S2-Step,v2 w/o quantile (point+eta),5,52.655072012711244,100.0
+S2-Step,v2 w/o quantile (point+eta),6,52.81248212578542,100.0
+S2-Step,v2 w/o quantile (point+eta),7,52.697805557721544,100.0
+S2-Step,v2 w/o quantile (point+eta),8,52.97156671452581,100.0
+S2-Step,v2 w/o quantile (point+eta),9,52.43411068341632,100.0
+S2-Step,v2 w/o portability,0,16.67069974612103,88.73187180385737
+S2-Step,v2 w/o portability,1,16.806905407567573,93.81122249914213
+S2-Step,v2 w/o portability,2,16.81037665416898,100.0
+S2-Step,v2 w/o portability,3,16.43353067044162,92.50678136334405
+S2-Step,v2 w/o portability,4,16.33107881543763,99.70967622165561
+S2-Step,v2 w/o portability,5,16.519310545347345,87.75286905211148
+S2-Step,v2 w/o portability,6,16.316400153616083,95.90512393263874
+S2-Step,v2 w/o portability,7,16.78438486257543,95.34982120602852
+S2-Step,v2 w/o portability,8,16.49343265144165,92.68106035097598
+S2-Step,v2 w/o portability,9,16.388574140053926,98.79744291563239
+S2-Step,v2 w/o burst margin,0,1.3772624550379975,21.613250620017443
+S2-Step,v2 w/o burst margin,1,1.113021074785303,18.256565617453337
+S2-Step,v2 w/o burst margin,2,1.2765713066807072,33.65808285376911
+S2-Step,v2 w/o burst margin,3,1.146382675793034,18.03527106842151
+S2-Step,v2 w/o burst margin,4,1.1130830191456775,43.573747268593266
+S2-Step,v2 w/o burst margin,5,1.124110846748283,29.149772005201903
+S2-Step,v2 w/o burst margin,6,0.9082143761796724,40.37396049835683
+S2-Step,v2 w/o burst margin,7,1.2936005351697144,46.478586607268646
+S2-Step,v2 w/o burst margin,8,1.1518937116256511,36.67446655886613
+S2-Step,v2 w/o burst margin,9,1.0516928942212234,16.970481403876235
+S2-Step,Oracle (perfect forecast),0,9.509181066127503,98.34829736365526
+S2-Step,Oracle (perfect forecast),1,9.575755586643764,99.47841972995785
+S2-Step,Oracle (perfect forecast),2,10.09730164329845,94.7056654144798
+S2-Step,Oracle (perfect forecast),3,9.295436971455029,96.97084258193834
+S2-Step,Oracle (perfect forecast),4,9.710238564523689,97.05524371553562
+S2-Step,Oracle (perfect forecast),5,9.386427948385112,97.27095174342583
+S2-Step,Oracle (perfect forecast),6,10.072068833089553,89.77130772617961
+S2-Step,Oracle (perfect forecast),7,9.663425825224392,99.09974074894274
+S2-Step,Oracle (perfect forecast),8,9.439719880392827,95.83336065178365
+S2-Step,Oracle (perfect forecast),9,9.281977231728344,97.30988226089151
+S3-Noisy,Reactive (Karpenter),0,0.0,0.0
+S3-Noisy,Reactive (Karpenter),1,0.0,0.0
+S3-Noisy,Reactive (Karpenter),2,0.0,0.0
+S3-Noisy,Reactive (Karpenter),3,0.0,0.0
+S3-Noisy,Reactive (Karpenter),4,0.0,0.0
+S3-Noisy,Reactive (Karpenter),5,0.0,0.0
+S3-Noisy,Reactive (Karpenter),6,0.0,0.0
+S3-Noisy,Reactive (Karpenter),7,0.0,0.0
+S3-Noisy,Reactive (Karpenter),8,0.0,0.0
+S3-Noisy,Reactive (Karpenter),9,0.0,0.0
+S3-Noisy,"Threshold (70%, arch-agnostic)",0,44.63188818659305,99.10301221674452
+S3-Noisy,"Threshold (70%, arch-agnostic)",1,45.872736493541396,98.29224116825237
+S3-Noisy,"Threshold (70%, arch-agnostic)",2,44.399463190752584,98.91024038069689
+S3-Noisy,"Threshold (70%, arch-agnostic)",3,45.18168279970218,98.77523137545484
+S3-Noisy,"Threshold (70%, arch-agnostic)",4,45.33418574051649,99.46089479444817
+S3-Noisy,"Threshold (70%, arch-agnostic)",5,46.018822826411785,99.5062153794192
+S3-Noisy,"Threshold (70%, arch-agnostic)",6,45.96365314889397,99.3001632914907
+S3-Noisy,"Threshold (70%, arch-agnostic)",7,45.80152102038228,99.36300908407823
+S3-Noisy,"Threshold (70%, arch-agnostic)",8,45.64718162839243,99.17230637630081
+S3-Noisy,"Threshold (70%, arch-agnostic)",9,46.0115831268473,99.07179845437419
+S3-Noisy,Proposed v2,0,44.588860203566824,94.5661408435817
+S3-Noisy,Proposed v2,1,45.53787178186808,94.57989342103545
+S3-Noisy,Proposed v2,2,44.78575824306192,95.15914604118437
+S3-Noisy,Proposed v2,3,45.35219657483254,96.17312938832508
+S3-Noisy,Proposed v2,4,45.062109261751026,95.21422384724563
+S3-Noisy,Proposed v2,5,45.75664774424866,96.53625385051697
+S3-Noisy,Proposed v2,6,45.334544398698554,93.46695246207429
+S3-Noisy,Proposed v2,7,45.499257401727064,96.97750395608196
+S3-Noisy,Proposed v2,8,45.54801670146138,94.11923808368341
+S3-Noisy,Proposed v2,9,45.63169836104733,95.18651105618319
+S3-Noisy,v2 w/o quantile (point+eta),0,39.03899225496301,92.36210135463358
+S3-Noisy,v2 w/o quantile (point+eta),1,39.94734643954534,94.1927548419097
+S3-Noisy,v2 w/o quantile (point+eta),2,39.44213359432347,92.97650733197338
+S3-Noisy,v2 w/o quantile (point+eta),3,39.490692479523524,94.26934049155369
+S3-Noisy,v2 w/o quantile (point+eta),4,39.63470387523142,92.40431668352412
+S3-Noisy,v2 w/o quantile (point+eta),5,40.01493875112043,94.27362893165414
+S3-Noisy,v2 w/o quantile (point+eta),6,40.2763611456479,91.51842000635297
+S3-Noisy,v2 w/o quantile (point+eta),7,39.786101844181296,93.7958889028642
+S3-Noisy,v2 w/o quantile (point+eta),8,40.02609603340288,90.93730292107796
+S3-Noisy,v2 w/o quantile (point+eta),9,40.111054721318375,93.4666209873858
+S3-Noisy,v2 w/o portability,0,49.29374758894913,98.59566336404694
+S3-Noisy,v2 w/o portability,1,50.56382566152562,97.50328838177226
+S3-Noisy,v2 w/o portability,2,49.6748745097167,98.41854407853269
+S3-Noisy,v2 w/o portability,3,49.833953834698534,99.55102581637082
+S3-Noisy,v2 w/o portability,4,49.744649534273535,97.90511880208697
+S3-Noisy,v2 w/o portability,5,50.633403047505254,99.48094284304383
+S3-Noisy,v2 w/o portability,6,51.167015344297376,97.70746260052262
+S3-Noisy,v2 w/o portability,7,50.398167013710136,97.89504950168293
+S3-Noisy,v2 w/o portability,8,50.211005070086465,97.36944718646295
+S3-Noisy,v2 w/o portability,9,50.333611965250704,98.65374040029106
+S3-Noisy,v2 w/o burst margin,0,33.23169826997832,90.36562672484465
+S3-Noisy,v2 w/o burst margin,1,33.92873124310134,88.9849934844167
+S3-Noisy,v2 w/o burst margin,2,33.24287652645859,89.20762924922379
+S3-Noisy,v2 w/o burst margin,3,33.76470588235296,92.89067833974316
+S3-Noisy,v2 w/o burst margin,4,33.604418640955735,87.3491787305117
+S3-Noisy,v2 w/o burst margin,5,34.176874813265655,91.8975180244277
+S3-Noisy,v2 w/o burst margin,6,33.72692957704526,87.34711381580995
+S3-Noisy,v2 w/o burst margin,7,34.13414534028918,90.47403886455113
+S3-Noisy,v2 w/o burst margin,8,34.03817476886368,85.91215092405422
+S3-Noisy,v2 w/o burst margin,9,34.08439561751804,90.2478713167106
+S3-Noisy,Oracle (perfect forecast),0,28.561678388082612,100.0
+S3-Noisy,Oracle (perfect forecast),1,29.706750991915488,100.0
+S3-Noisy,Oracle (perfect forecast),2,28.975836169376624,100.0
+S3-Noisy,Oracle (perfect forecast),3,29.07520476545049,100.0
+S3-Noisy,Oracle (perfect forecast),4,28.912957828145803,100.0
+S3-Noisy,Oracle (perfect forecast),5,29.757992231849407,100.0
+S3-Noisy,Oracle (perfect forecast),6,29.912818183848565,100.0
+S3-Noisy,Oracle (perfect forecast),7,29.317332019792673,100.0
+S3-Noisy,Oracle (perfect forecast),8,29.692066805845485,99.98733278413485
+S3-Noisy,Oracle (perfect forecast),9,29.706391617159777,100.0
+S4-Batch,Reactive (Karpenter),0,0.0,0.0
+S4-Batch,Reactive (Karpenter),1,0.0,0.0
+S4-Batch,Reactive (Karpenter),2,0.0,0.0
+S4-Batch,Reactive (Karpenter),3,0.0,0.0
+S4-Batch,Reactive (Karpenter),4,0.0,0.0
+S4-Batch,Reactive (Karpenter),5,0.0,0.0
+S4-Batch,Reactive (Karpenter),6,0.0,0.0
+S4-Batch,Reactive (Karpenter),7,0.0,0.0
+S4-Batch,Reactive (Karpenter),8,0.0,0.0
+S4-Batch,Reactive (Karpenter),9,0.0,0.0
+S4-Batch,"Threshold (70%, arch-agnostic)",0,40.2889890624454,-13.960229390746214
+S4-Batch,"Threshold (70%, arch-agnostic)",1,39.452771000348584,-14.563480180322962
+S4-Batch,"Threshold (70%, arch-agnostic)",2,38.95969536792321,-7.428508263824152
+S4-Batch,"Threshold (70%, arch-agnostic)",3,37.82421624247478,4.680733853485542
+S4-Batch,"Threshold (70%, arch-agnostic)",4,39.19963024975579,-36.52540150654471
+S4-Batch,"Threshold (70%, arch-agnostic)",5,41.08513653316177,-18.60113752061119
+S4-Batch,"Threshold (70%, arch-agnostic)",6,38.965124666498596,-29.777570236630034
+S4-Batch,"Threshold (70%, arch-agnostic)",7,40.872285609127765,-22.985506649761312
+S4-Batch,"Threshold (70%, arch-agnostic)",8,39.74369088630012,-9.144862432242217
+S4-Batch,"Threshold (70%, arch-agnostic)",9,39.885159781489385,-15.374224212117827
+S4-Batch,Proposed v2,0,23.692210923576962,33.38152932837931
+S4-Batch,Proposed v2,1,23.584872777971476,36.32277268112328
+S4-Batch,Proposed v2,2,23.912400890249064,38.25935148150202
+S4-Batch,Proposed v2,3,23.2620274466941,42.71824290885794
+S4-Batch,Proposed v2,4,23.907318264266774,33.54945272515454
+S4-Batch,Proposed v2,5,23.344084432350655,41.094345901535014
+S4-Batch,Proposed v2,6,23.665342800281564,31.037269003627742
+S4-Batch,Proposed v2,7,24.325674325674385,32.76866253057622
+S4-Batch,Proposed v2,8,24.41686170352653,34.11645227998429
+S4-Batch,Proposed v2,9,23.78309510096519,39.0711938851978
+S4-Batch,v2 w/o quantile (point+eta),0,46.11332424782471,37.67931792856854
+S4-Batch,v2 w/o quantile (point+eta),1,45.931509236667864,41.920963959505755
+S4-Batch,v2 w/o quantile (point+eta),2,45.87738211155934,36.75839288706906
+S4-Batch,v2 w/o quantile (point+eta),3,45.16473221256441,43.380145272528225
+S4-Batch,v2 w/o quantile (point+eta),4,45.939723733779815,39.90763500753312
+S4-Batch,v2 w/o quantile (point+eta),5,45.81272223043285,32.436722485803834
+S4-Batch,v2 w/o quantile (point+eta),6,46.194825623332456,27.95470687267262
+S4-Batch,v2 w/o quantile (point+eta),7,46.64458348668879,35.81203081763196
+S4-Batch,v2 w/o quantile (point+eta),8,46.940331869461275,36.95093874691795
+S4-Batch,v2 w/o quantile (point+eta),9,46.25722114595878,37.29837531172352
+S4-Batch,v2 w/o portability,0,20.407450117063263,25.457232803768136
+S4-Batch,v2 w/o portability,1,20.749390031369863,20.057098514624762
+S4-Batch,v2 w/o portability,2,20.536583669495066,17.588277034735032
+S4-Batch,v2 w/o portability,3,19.321119380974714,17.38070053223314
+S4-Batch,v2 w/o portability,4,20.7478721919911,17.16832063671192
+S4-Batch,v2 w/o portability,5,20.306536726159983,19.65136715379032
+S4-Batch,v2 w/o portability,6,20.815698679899498,16.75688632619282
+S4-Batch,v2 w/o portability,7,21.432953011900423,18.030838436033992
+S4-Batch,v2 w/o portability,8,21.45580771557063,16.219988566125355
+S4-Batch,v2 w/o portability,9,20.282039199260037,17.149765328012744
+S4-Batch,v2 w/o burst margin,0,15.201628402697654,28.45225777145831
+S4-Batch,v2 w/o burst margin,1,14.979086789822226,27.73761985480353
+S4-Batch,v2 w/o burst margin,2,14.696932814021402,20.913536854887493
+S4-Batch,v2 w/o burst margin,3,14.469369697600577,34.70446555912879
+S4-Batch,v2 w/o burst margin,4,15.19377005720659,27.68728380903297
+S4-Batch,v2 w/o burst margin,5,14.666121867039884,27.365388666634406
+S4-Batch,v2 w/o burst margin,6,14.600189454839274,20.59216018825627
+S4-Batch,v2 w/o burst margin,7,15.511681301155011,25.966133456677877
+S4-Batch,v2 w/o burst margin,8,15.581034528098513,27.04581976201559
+S4-Batch,v2 w/o burst margin,9,14.947553973157369,23.798380228197068
+S4-Batch,Oracle (perfect forecast),0,18.868155292308742,99.91896485568984
+S4-Batch,Oracle (perfect forecast),1,18.891599860578644,99.96652222086915
+S4-Batch,Oracle (perfect forecast),2,18.397899568785636,100.0
+S4-Batch,Oracle (perfect forecast),3,17.8360138100939,100.0
+S4-Batch,Oracle (perfect forecast),4,18.692444537463395,99.67951286994855
+S4-Batch,Oracle (perfect forecast),5,18.582593651925162,100.0
+S4-Batch,Oracle (perfect forecast),6,18.512692605177826,100.0
+S4-Batch,Oracle (perfect forecast),7,19.21061394745609,100.0
+S4-Batch,Oracle (perfect forecast),8,19.369570743594554,100.0
+S4-Batch,Oracle (perfect forecast),9,18.74530952754945,100.0
+S5-Spikes,Reactive (Karpenter),0,0.0,0.0
+S5-Spikes,Reactive (Karpenter),1,0.0,0.0
+S5-Spikes,Reactive (Karpenter),2,0.0,0.0
+S5-Spikes,Reactive (Karpenter),3,0.0,0.0
+S5-Spikes,Reactive (Karpenter),4,0.0,0.0
+S5-Spikes,Reactive (Karpenter),5,0.0,0.0
+S5-Spikes,Reactive (Karpenter),6,0.0,0.0
+S5-Spikes,Reactive (Karpenter),7,0.0,0.0
+S5-Spikes,Reactive (Karpenter),8,0.0,0.0
+S5-Spikes,Reactive (Karpenter),9,0.0,0.0
+S5-Spikes,"Threshold (70%, arch-agnostic)",0,51.44025319885228,100.0
+S5-Spikes,"Threshold (70%, arch-agnostic)",1,51.134798638859195,100.0
+S5-Spikes,"Threshold (70%, arch-agnostic)",2,51.15993685404896,100.0
+S5-Spikes,"Threshold (70%, arch-agnostic)",3,51.31595122191084,100.0
+S5-Spikes,"Threshold (70%, arch-agnostic)",4,52.383274186082375,100.0
+S5-Spikes,"Threshold (70%, arch-agnostic)",5,51.5217204406726,100.0
+S5-Spikes,"Threshold (70%, arch-agnostic)",6,50.15613666260954,100.0
+S5-Spikes,"Threshold (70%, arch-agnostic)",7,51.85620155517918,100.0
+S5-Spikes,"Threshold (70%, arch-agnostic)",8,51.52188128462327,100.0
+S5-Spikes,"Threshold (70%, arch-agnostic)",9,51.97014353593967,100.0
+S5-Spikes,Proposed v2,0,25.360525116685693,89.15889521104472
+S5-Spikes,Proposed v2,1,26.381675240700766,92.6030867953595
+S5-Spikes,Proposed v2,2,26.01317185071892,91.11152612819718
+S5-Spikes,Proposed v2,3,25.21389585484579,89.46756504646736
+S5-Spikes,Proposed v2,4,25.951550686622383,89.65562303126828
+S5-Spikes,Proposed v2,5,25.44490978985763,93.22947449016634
+S5-Spikes,Proposed v2,6,26.066216698016852,86.69281921665272
+S5-Spikes,Proposed v2,7,25.973841342052808,86.50628772475454
+S5-Spikes,Proposed v2,8,26.111337306140502,91.04574047730082
+S5-Spikes,Proposed v2,9,26.07621060176346,87.43766015091991
+S5-Spikes,v2 w/o quantile (point+eta),0,37.42749473528653,94.70618584520918
+S5-Spikes,v2 w/o quantile (point+eta),1,37.9390203985845,95.94712934767371
+S5-Spikes,v2 w/o quantile (point+eta),2,38.03618558989663,93.04305131236619
+S5-Spikes,v2 w/o quantile (point+eta),3,37.047007916605224,90.84090225610575
+S5-Spikes,v2 w/o quantile (point+eta),4,37.81823792624601,95.93189656264225
+S5-Spikes,v2 w/o quantile (point+eta),5,37.218899301163155,93.39764013792085
+S5-Spikes,v2 w/o quantile (point+eta),6,37.79060475294751,90.73027290109023
+S5-Spikes,v2 w/o quantile (point+eta),7,37.981975745138506,88.52168046373608
+S5-Spikes,v2 w/o quantile (point+eta),8,37.95017951660067,91.82092885643756
+S5-Spikes,v2 w/o quantile (point+eta),9,37.9625681996528,95.9331477451168
+S5-Spikes,v2 w/o portability,0,27.91037056193886,100.0
+S5-Spikes,v2 w/o portability,1,28.807519623524747,100.0
+S5-Spikes,v2 w/o portability,2,28.55442638316761,100.0
+S5-Spikes,v2 w/o portability,3,27.77757289669074,99.70840457489356
+S5-Spikes,v2 w/o portability,4,28.516586946458865,100.0
+S5-Spikes,v2 w/o portability,5,27.957775021186194,100.0
+S5-Spikes,v2 w/o portability,6,28.56010032087921,100.0
+S5-Spikes,v2 w/o portability,7,28.468556452510118,99.92254613859114
+S5-Spikes,v2 w/o portability,8,28.511060936940915,100.0
+S5-Spikes,v2 w/o portability,9,28.724488850167784,100.0
+S5-Spikes,v2 w/o burst margin,0,13.665472100097254,80.73487859668482
+S5-Spikes,v2 w/o burst margin,1,14.017156302687006,87.47072244838898
+S5-Spikes,v2 w/o burst margin,2,13.927875484077767,74.67057716548189
+S5-Spikes,v2 w/o burst margin,3,13.500024585730387,79.84353473111612
+S5-Spikes,v2 w/o burst margin,4,13.88921462737227,80.83421780578479
+S5-Spikes,v2 w/o burst margin,5,13.378612397293077,80.72040022294573
+S5-Spikes,v2 w/o burst margin,6,13.493527090325586,74.75500625106811
+S5-Spikes,v2 w/o burst margin,7,14.060896762309705,72.62824699424657
+S5-Spikes,v2 w/o burst margin,8,13.875831266733263,82.19484741983788
+S5-Spikes,v2 w/o burst margin,9,14.009429007482655,81.51290415008845
+S5-Spikes,Oracle (perfect forecast),0,17.28365414219033,100.0
+S5-Spikes,Oracle (perfect forecast),1,17.969034664624516,100.0
+S5-Spikes,Oracle (perfect forecast),2,17.722799141609702,100.0
+S5-Spikes,Oracle (perfect forecast),3,17.169444854206596,99.89350175547116
+S5-Spikes,Oracle (perfect forecast),4,17.9182224965283,99.50446113318402
+S5-Spikes,Oracle (perfect forecast),5,17.20133626460005,100.0
+S5-Spikes,Oracle (perfect forecast),6,17.78052348811756,100.0
+S5-Spikes,Oracle (perfect forecast),7,17.911139681793987,100.0
+S5-Spikes,Oracle (perfect forecast),8,17.865294690997025,100.0
+S5-Spikes,Oracle (perfect forecast),9,17.983082160886333,100.0
+S6-Sinusoid,Reactive (Karpenter),0,0.0,0.0
+S6-Sinusoid,Reactive (Karpenter),1,0.0,0.0
+S6-Sinusoid,Reactive (Karpenter),2,0.0,0.0
+S6-Sinusoid,Reactive (Karpenter),3,0.0,0.0
+S6-Sinusoid,Reactive (Karpenter),4,0.0,0.0
+S6-Sinusoid,Reactive (Karpenter),5,0.0,0.0
+S6-Sinusoid,Reactive (Karpenter),6,0.0,0.0
+S6-Sinusoid,Reactive (Karpenter),7,0.0,0.0
+S6-Sinusoid,Reactive (Karpenter),8,0.0,0.0
+S6-Sinusoid,Reactive (Karpenter),9,0.0,0.0
+S6-Sinusoid,"Threshold (70%, arch-agnostic)",0,55.23572774720975,100.0
+S6-Sinusoid,"Threshold (70%, arch-agnostic)",1,54.36374778974442,100.0
+S6-Sinusoid,"Threshold (70%, arch-agnostic)",2,54.56065550582465,100.0
+S6-Sinusoid,"Threshold (70%, arch-agnostic)",3,54.976639391668726,100.0
+S6-Sinusoid,"Threshold (70%, arch-agnostic)",4,53.906002145241885,100.0
+S6-Sinusoid,"Threshold (70%, arch-agnostic)",5,54.91042423204586,100.0
+S6-Sinusoid,"Threshold (70%, arch-agnostic)",6,54.24266056199838,100.0
+S6-Sinusoid,"Threshold (70%, arch-agnostic)",7,53.3313600858865,100.0
+S6-Sinusoid,"Threshold (70%, arch-agnostic)",8,53.58581343725828,100.0
+S6-Sinusoid,"Threshold (70%, arch-agnostic)",9,54.39837304244086,100.0
+S6-Sinusoid,Proposed v2,0,29.58028284298124,100.0
+S6-Sinusoid,Proposed v2,1,29.24168140170389,100.0
+S6-Sinusoid,Proposed v2,2,30.17165604130254,100.0
+S6-Sinusoid,Proposed v2,3,29.163795834821226,100.0
+S6-Sinusoid,Proposed v2,4,29.476933613322643,100.0
+S6-Sinusoid,Proposed v2,5,29.611124821830593,99.80127083661343
+S6-Sinusoid,Proposed v2,6,30.01886744987541,100.0
+S6-Sinusoid,Proposed v2,7,28.713760390903765,99.89045000376674
+S6-Sinusoid,Proposed v2,8,29.20981528540869,99.77131652379538
+S6-Sinusoid,Proposed v2,9,29.18455799811732,100.0
+S6-Sinusoid,v2 w/o quantile (point+eta),0,49.240851055229726,100.0
+S6-Sinusoid,v2 w/o quantile (point+eta),1,48.694442211863056,99.93794998524204
+S6-Sinusoid,v2 w/o quantile (point+eta),2,49.80753104256552,100.0
+S6-Sinusoid,v2 w/o quantile (point+eta),3,48.79525646377232,100.0
+S6-Sinusoid,v2 w/o quantile (point+eta),4,49.07165410239755,100.0
+S6-Sinusoid,v2 w/o quantile (point+eta),5,49.03675200330406,100.0
+S6-Sinusoid,v2 w/o quantile (point+eta),6,49.57107997283086,100.0
+S6-Sinusoid,v2 w/o quantile (point+eta),7,48.29857575012677,100.0
+S6-Sinusoid,v2 w/o quantile (point+eta),8,48.733414357315816,100.0
+S6-Sinusoid,v2 w/o quantile (point+eta),9,48.823325094511546,99.79313116350069
+S6-Sinusoid,v2 w/o portability,0,35.78282024464554,100.0
+S6-Sinusoid,v2 w/o portability,1,35.33294486416965,100.0
+S6-Sinusoid,v2 w/o portability,2,36.33722986148293,100.0
+S6-Sinusoid,v2 w/o portability,3,35.360769265586754,100.0
+S6-Sinusoid,v2 w/o portability,4,35.66187764063666,100.0
+S6-Sinusoid,v2 w/o portability,5,35.602653276050454,100.0
+S6-Sinusoid,v2 w/o portability,6,36.157077809363145,100.0
+S6-Sinusoid,v2 w/o portability,7,34.881830906071755,100.0
+S6-Sinusoid,v2 w/o portability,8,35.40965658554216,100.0
+S6-Sinusoid,v2 w/o portability,9,35.53533045058461,100.0
+S6-Sinusoid,v2 w/o burst margin,0,19.306888171423743,99.96155076249697
+S6-Sinusoid,v2 w/o burst margin,1,18.81027969779778,99.93794998524204
+S6-Sinusoid,v2 w/o burst margin,2,19.533831092071964,99.30400018707536
+S6-Sinusoid,v2 w/o burst margin,3,18.942963905471345,100.0
+S6-Sinusoid,v2 w/o burst margin,4,19.140493204216003,99.59798951462497
+S6-Sinusoid,v2 w/o burst margin,5,19.206535480264165,99.6694836848602
+S6-Sinusoid,v2 w/o burst margin,6,18.894115871298855,99.78525745445775
+S6-Sinusoid,v2 w/o burst margin,7,18.69083393116049,99.89045000376674
+S6-Sinusoid,v2 w/o burst margin,8,18.758725981578795,99.50545665338252
+S6-Sinusoid,v2 w/o burst margin,9,19.055337699405527,99.79313116350069
+S6-Sinusoid,Oracle (perfect forecast),0,20.216856390745775,100.0
+S6-Sinusoid,Oracle (perfect forecast),1,19.849099823179507,100.0
+S6-Sinusoid,Oracle (perfect forecast),2,20.731078937530988,100.0
+S6-Sinusoid,Oracle (perfect forecast),3,19.868335688672857,100.0
+S6-Sinusoid,Oracle (perfect forecast),4,20.27102563715195,100.0
+S6-Sinusoid,Oracle (perfect forecast),5,20.21083169224418,100.0
+S6-Sinusoid,Oracle (perfect forecast),6,20.546401348393715,100.0
+S6-Sinusoid,Oracle (perfect forecast),7,19.67361149433371,99.89045000376674
+S6-Sinusoid,Oracle (perfect forecast),8,19.909802227824702,100.0
+S6-Sinusoid,Oracle (perfect forecast),9,20.111954010259115,100.0

@@ -1,0 +1,8 @@
+{
+ "inference_ms_median": 14.073786999915683,
+ "inference_ms_p95": 16.194056849985817,
+ "planner_us_median": 4.723999836642179,
+ "params_per_model": 33982,
+ "tf": "2.21.0",
+ "cpu": 2
+}

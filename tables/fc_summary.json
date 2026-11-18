@@ -1,0 +1,15 @@
+{
+ "fc_wins": {
+  "naive": 1,
+  "snaive": 1,
+  "arima": 5,
+  "prophet": 1,
+  "ridge": 5,
+  "lstm_mae": 9,
+  "lstm_quantile(q0.5)": 5
+ },
+ "q_cover_mean": 90.70233196159124,
+ "q_cover_min": 65.5,
+ "q_cover_max": 98.5925925925926,
+ "mae_under_mean": 50.105624142661185
+}
